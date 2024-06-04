@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte do processo seletivo da VR Benefícios 
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** Cypress
+- **Frontend:** Cypress, Node
 - **Backend:** Cucumber, Ruby, HTTParty
 
 ## Estrutura do Projeto
