@@ -82,7 +82,7 @@ desafio_vr/
 ## Informações Adicionais
 
 - **Vídeos de Demonstração:**
-     - [Desafio VR Frontend](videos\desafio_vr_frontend.mp4)
+     - [Desafio VR Frontend](https://github.com/rsouzacosta/desafio_vr/blob/main/videos/desafio_vr_frontend.mp4)
      - [Desafio VR Backend](videos\desafio_vr_backend.mp4)
 
 - **Regras do Desafio:**
