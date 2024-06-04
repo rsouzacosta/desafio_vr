@@ -1,0 +1,7 @@
+# Fonte onde as gems serão baixadas
+source 'https://rubygems.org'
+
+# Gems necessárias para o projeto
+gem 'cucumber'          # Ferramenta para testes BDD
+gem 'httparty'          # Biblioteca para fazer requisições HTTP
+gem 'rspec-expectations'  # Biblioteca para fazer asserções
