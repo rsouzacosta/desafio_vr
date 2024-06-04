@@ -16,7 +16,7 @@ end
 
 # Passo Given: Enviar uma solicitação para a API VR
 # Este passo faz a requisição para a API VR e armazena a resposta.
-Dado('que envio uma solicitação para a API VR') do
+Given('que envio uma solicitação para a API VR') do
   # Obtendo a resposta da API e parseando o JSON
   # O método get_response do módulo VRAPIClient para obter a resposta da API
   @response = VRAPIClient.get_response
@@ -26,7 +26,7 @@ end
 
 # Passo Então: Verificar se a resposta contém a chave 'typeOfEstablishment'
 # Este passo verifica se a chave 'typeOfEstablishment' está presente na resposta JSON.
-Então('a resposta deve conter a chave {string}') do |key|
+Then('a resposta deve conter a chave {string}') do |key|
   # Verificando se a chave está presente no JSON retornado
   # O método expect do RSpec para verificar se a chave especificada está presente no objeto JSON
   # O método have_key é um matcher do RSpec que verifica a presença de uma chave em um hash.
@@ -35,7 +35,7 @@ end
 
 # Passo E: Imprimir aleatoriamente um tipo de estabelecimento
 # Este passo imprime um tipo de estabelecimento aleatoriamente.
-E('eu imprimo um tipo de estabelecimento aleatoriamente') do
+Then('eu imprimo um tipo de estabelecimento aleatoriamente') do
   # Obtendo os tipos de estabelecimentos e imprimindo um aleatoriamente
   # Obtendo array de tipos de estabelecimentos a partir do JSON 
   types_of_establishments = @parsed_response['typeOfEstablishment']
