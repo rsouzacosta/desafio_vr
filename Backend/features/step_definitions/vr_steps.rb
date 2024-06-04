@@ -24,7 +24,7 @@ Given('que envio uma solicitação para a API VR') do
   @parsed_response = JSON.parse(@response.body)
 end
 
-# Passo Então: Verificar se a resposta contém a chave 'typeOfEstablishment'
+# Passo Then: Verificar se a resposta contém a chave 'typeOfEstablishment'
 # Este passo verifica se a chave 'typeOfEstablishment' está presente na resposta JSON.
 Then('a resposta deve conter a chave {string}') do |key|
   # Verificando se a chave está presente no JSON retornado
@@ -33,7 +33,7 @@ Then('a resposta deve conter a chave {string}') do |key|
   expect(@parsed_response).to have_key(key)
 end
 
-# Passo E: Imprimir aleatoriamente um tipo de estabelecimento
+# Passo And: Imprimir aleatoriamente um tipo de estabelecimento
 # Este passo imprime um tipo de estabelecimento aleatoriamente.
 Then('eu imprimo um tipo de estabelecimento aleatoriamente') do
   # Obtendo os tipos de estabelecimentos e imprimindo um aleatoriamente
