@@ -82,8 +82,8 @@ desafio_vr/
 ## Informações Adicionais
 
 - **Vídeos de Demonstração:**
-     - [Desafio VR Frontend](https://github.com/rsouzacosta/desafio_vr/blob/main/videos/desafio_vr_frontend.mp4)
-     - [Desafio VR Backend](videos\desafio_vr_backend.mp4)
+     - [Desafio VR Frontend](https://github.com/rsouzacosta/desafio_vr/raw/main/videos/desafio_vr_frontend.mp4)
+     - [Desafio VR Backend](https://github.com/rsouzacosta/desafio_vr/raw/main/videos/desafio_vr_backend.mp4)
 
 - **Regras do Desafio:**
     - O exercício deve ser entregue em um repositório público do GitHub.
